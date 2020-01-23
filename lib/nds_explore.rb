@@ -19,5 +19,4 @@ def print_first_directors_movie_titles
   puts movie_titles
   i += 1
   end
-  
 end
