@@ -10,10 +10,11 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-  require 'pp'
+  # require 'pp'
   i = 0
   while i < directors_database.length do
-    pp directors_database[i]
+    # pp directors_database[i]
+    puts directors_database[i]
     i += 1
   end
   
