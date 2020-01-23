@@ -14,7 +14,7 @@ def print_first_directors_movie_titles
  binding.pry
  i = 0
  while i < directors_database.length do
-  puts directors_database[i] "\n"
+  puts directors_database[i]
   i += 1
   end
 
