@@ -16,7 +16,7 @@ def print_first_directors_movie_titles
  #binding.pry
  i = 0
  while i < ele.length do
-  # puts directors_database[i]
+  
   movie_titles = ele[i][:title]
   puts movie_titles
   i += 1
